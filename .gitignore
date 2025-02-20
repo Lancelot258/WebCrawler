@@ -1,27 +1,29 @@
-# Compiled files and build artifacts
+# 忽略编译输出
 /out/
 /production/
 *.class
 *.jar
 *.log
 
-# IDE-specific files
+# 忽略 IDE 配置
 *.iml
 /.idea/
 /.vscode/
 
-# Temporary and OS files
+# 忽略临时文件
 *.tmp
 *.swp
 .DS_Store
 
-# Third-party libraries
+# 忽略第三方库
 /mysql-connector-j-9.1.0/
 
-# Archives and backups
+# 忽略归档文件
 *.zip
 
-# Documentation and personal files
-yt2979_proposal*
+# 忽略私人文档
+*.docx
+*.pdf
 FinalProjectDescription.docx
+yt2979_proposal*
 
