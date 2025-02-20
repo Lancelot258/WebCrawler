@@ -1,0 +1,27 @@
+# Compiled files and build artifacts
+/out/
+/production/
+*.class
+*.jar
+*.log
+
+# IDE-specific files
+*.iml
+/.idea/
+/.vscode/
+
+# Temporary and OS files
+*.tmp
+*.swp
+.DS_Store
+
+# Third-party libraries
+/mysql-connector-j-9.1.0/
+
+# Archives and backups
+*.zip
+
+# Documentation and personal files
+yt2979_proposal*
+FinalProjectDescription.docx
+
