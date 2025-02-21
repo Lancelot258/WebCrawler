@@ -25,7 +25,7 @@ public class WebCrawler {
     private static final int THREAD_POOL_SIZE = 10;
     private static final String DB_URL = "jdbc:mysql://localhost:3306/webcrawler";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "XjyTyy981103.";
+    private static final String DB_PASSWORD = "YourPassWord";
 
     private final Set<String> visitedUrls = ConcurrentHashMap.newKeySet();
     private final ExecutorService executor = Executors.newFixedThreadPool(THREAD_POOL_SIZE);
